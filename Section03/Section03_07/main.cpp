@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/* ch03_09  */
+/* ch03_07 ÀÌÁø¼ö  */
 
 int main()
 {
