@@ -26,6 +26,7 @@ int main()
 	int x;
 	cin >> x;
 
+
 	if (x > 10)
 	{
 		cout << "greater than 10" << endl;
@@ -39,6 +40,10 @@ int main()
 		return 0; //종료
 	}
 
+
+	if (x = 0) //x가 0이 되고 if(0)이므로 실행이 안됨
+		cout << x << endl;
+	cout << x << endl;
 
 	int a, b;
 	cin >> a >> b;
