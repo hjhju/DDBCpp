@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\Section06\Section06_04\main.cpp(24,18): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+D:\Coding\DDBCpp\Section06\Section06_04\main.cpp(24,18): warning C4302: '형식 캐스트': 'int *'에서 'int'(으)로 잘립니다.
+  Section06_04.vcxproj -> D:\Coding\DDBCpp\Section06\x64\Debug\Section06_04.exe
