@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\STL02\STL02_06\main.cpp(20,8): warning C4101: 'p1' :참조되지 않은 지역 변수입니다.
+D:\Coding\DDBCpp\STL02\STL02_06\main.cpp(20,12): warning C4101: 'p2' :참조되지 않은 지역 변수입니다.
+  STL02_06.vcxproj -> D:\Coding\DDBCpp\STL02\Debug\STL02_06.exe

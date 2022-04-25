@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\STL02\STL02_03\main.cpp(17,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  STL02_03.vcxproj -> D:\Coding\DDBCpp\STL02\Debug\STL02_03.exe
