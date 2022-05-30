@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\Concurrent01\Concurrent01_01\main.cpp(27,7): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+  Concurrent01_01.vcxproj -> D:\Coding\DDBCpp\Concurrent01\Debug\Concurrent01_01.exe
