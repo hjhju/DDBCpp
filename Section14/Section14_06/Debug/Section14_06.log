@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\Section14\Section14_06\main.cpp(13,1): warning C4297: 'A::~A': function assumed not to throw an exception but does
+D:\Coding\DDBCpp\Section14\Section14_06\main.cpp(13,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  Section14_06.vcxproj -> D:\Coding\DDBCpp\Section14\Debug\Section14_06.exe
