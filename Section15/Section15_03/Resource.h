@@ -25,6 +25,7 @@ public:
 	{
 		std::cout << "Resource copy constructed" << std::endl;
 		Resource(res.m_length);
+
 		// ±íÀº º¹»ç -> ´À·ÁÁü
 		for (unsigned i = 0; i < m_length; ++i)
 			m_data[i] = res.m_data[i];
@@ -46,6 +47,7 @@ public:
 		m_length = res.m_length;
 		m_data = new int[m_length];
 
+		// deep copy
 		for (unsigned i = 0; i < m_length; ++i)
 			m_data[i] = res.m_data[i];
 

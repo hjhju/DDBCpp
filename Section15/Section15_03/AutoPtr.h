@@ -8,10 +8,11 @@ class AutoPtr
 {
 public:
 	T* m_ptr;
+
 public:
 	AutoPtr(T* ptr = nullptr) : m_ptr(ptr)
 	{
-		std::cout << "AutoPtr default constructed" << std::endl;
+		std::cout << "AutoPtr default constructor" << std::endl;
 
 	}
 
@@ -22,14 +23,17 @@ public:
 		if (m_ptr != nullptr) delete m_ptr;
 	}
 
-	//// Resource& operator = (Resource& res) 가 실행됨
+
+	// L-value reference
 	//AutoPtr(const AutoPtr& a)
 	//{
 	//	std::cout << "AutoPtr copy constructor" << std::endl;
 
 	//	// Deep copy
+	//	// Resource& operator = (Resource& res) 가 실행됨
 	//	m_ptr = new T;
-	//	*m_ptr = *a.m_ptr; //복사해줌
+	//	// 내부적으로는 연산자 오버로딩이 일어나는것
+	//	*m_ptr = *a.m_ptr; 
 	//}
 
 	//AutoPtr& operator = (const AutoPtr& a)
@@ -51,7 +55,7 @@ public:
 
 	//AutoPtr(const AutoPtr& a) = delete;
 	//AutoPtr& operator = (const AutoPtr& a) = delete;
-
+	// R-value reference
 	AutoPtr(AutoPtr&& a)
 	{
 		m_ptr = a.m_ptr; //복사해줌
@@ -76,7 +80,7 @@ public:
 		return *this;
 	}
 
-	T& operator*() const { return *m_ptr; }
-	T* operator->() const { return m_ptr; }
-	bool isNull() const { return m_ptr == nullptr; }
+	//T& operator*() const { return *m_ptr; }
+	//T* operator->() const { return m_ptr; }
+	//bool isNull() const { return m_ptr == nullptr; }
 };
