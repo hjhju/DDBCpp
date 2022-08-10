@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Coding\DDBCpp\Section17\Section17_01\main.cpp(22,10): warning C4101: 'ws': unreferenced local variable
+  Section17_01.vcxproj -> D:\Coding\DDBCpp\Section17\Debug\Section17_01.exe
