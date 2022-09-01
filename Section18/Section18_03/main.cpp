@@ -42,5 +42,8 @@ int main()
 	os << "hello";
 	cout << os.str() << endl;
 
+
+
+
 	return 0;
 }
